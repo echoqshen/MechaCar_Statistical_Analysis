@@ -10,3 +10,4 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 
 ## Summary Statistics on Suspension Coils
 ![](https://github.com/echoqshen/MechaCar_Statistical_Analysis/blob/main/Summary%20Statistics%20on%20Suspension%20Coils.png)
+* The overall variance for the entire dataset indicates the manufacturing data meets the 100 pounds per square inch variance limitation. But when broken down into three lots, the third lot demonstrates a much higher variance. Because the samples are randomly chosen, there is a possiblity that a third of the lot does not meet the necessary suspension coils requirement.
