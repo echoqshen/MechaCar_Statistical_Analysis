@@ -8,3 +8,5 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 * The null hypothesis of a linear regression states that the slope (β1) is equal to 0. If the p-value is less than the significance level of 0.05, we are able to reject the null hypothesis. from the summary we can see the p-value of 5.35e-11 is extrememly below the significance level, which means that the relationship between our variables and the miles per gallon is subject to more than random chance.
 * Multiple R-squared increases as more variables are passed through the regression. The r-squared value of 0.7149 indicates that the model is 71% accurate. An adjusted R-square of 0.6825 still concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
 
+## Summary Statistics on Suspension Coils
+![](https://github.com/echoqshen/MechaCar_Statistical_Analysis/blob/main/Summary%20Statistics%20on%20Suspension%20Coils.png)
