@@ -1,3 +1,4 @@
+# Deliverable 1
 library(dplyr)
 # Import and read
 mechacar_df<-read.csv('MechaCar_mpg.csv', check.names = F,stringsAsFactors = F )
@@ -9,4 +10,7 @@ lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, mechaca
 summary(lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, mechacar_df))  
 
 # p-value: 5.35e-11
-# Adjusted R-squared:  0.6825
+# Multiple R-squared:  0.7149, Adjusted R-squared:  0.6825
+
+# Deliverable 2:
+suspensioncoil_table<-read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
