@@ -27,4 +27,11 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 
 ### Lot 3
 ![](https://github.com/echoqshen/MechaCar_Statistical_Analysis/blob/main/lot3.png)
-* At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168. The mean of this sample is also significantly smaller in comparison to the previous two lots. More importantly, unlike the previous two lots, the confidence interval for the third lot does not include the predicted population mean.
+* At a significance level of 0.05, we can reject the null hypothesis since the p-value equals 0.04168. This sample's mean is much smaller than the other two lots. 
+
+## Study Design: MechaCar vs Competition
+what other metrics would be of interest to a consumer when they compare a car to purchase from MechaCar or the competitors? 
+* Cost is certainly a big factor, as well as city or highway fuel efficiency, maintenance cost and horse power.
+* We can use our tests to see if our MechaCar is much different from the competiton. We can make a null hypothesis stating that it is no statistical difference in those metrics between our cars and the competitor's. The alternative hypothesis would state that there is an difference. 
+* ANOVA test would be best as it's used to test groups to see if the means from multiple samples are significantly similar or different. 
+* A random sample of n would be collected from MechaCar and their competitors. The p-value would be set at 0.05. Data that results in a prediction of a p-value smaller than 0.05 would provide predictive evidence that the null hypothesis could be rejected and that alternative hypothesis is true.
